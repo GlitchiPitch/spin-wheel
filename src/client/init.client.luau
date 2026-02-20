@@ -1,15 +1,6 @@
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
---- подписаться на обновление аттрибута SpinWheel
---- загружаем UI в playerGui
---- если аттрибут timer то запускать update
---- настравиаем логику кнопки в прогресс баре
---- если timer то открываем окно с показом какие награды можно выбить
---- если canClaim то рулетку показываем
---- если claimed то оповещение приходи завтра
---- фиксируем нажатия на кнопки в прогресс баре и кнопки закрытия окон и кнопка рулетки
---- фиксируем сигналы через remoteEvent
 
 local Constants = require(ReplicatedStorage.SpinWheelShared.Constants)
 local remoteEvent = ReplicatedStorage.SpinWheelShared.RemoteEvent
