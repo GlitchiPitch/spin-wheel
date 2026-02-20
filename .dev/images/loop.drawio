@@ -1,0 +1,148 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Страница — 1" id="2cXI5S1S8mhdjdekv_3Z">
+    <mxGraphModel dx="1489" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-123" target="VEy2LJHycuRVvZdLgTMg-125" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-123" value="Фиксирование захода игрока" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="66.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-124" value="Полный цикл" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="425" y="10" width="675" height="42.38" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-125" target="VEy2LJHycuRVvZdLgTMg-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-125" value="Получение данных из базы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="151.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-127" value="Валидация данных из базы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="236" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="VEy2LJHycuRVvZdLgTMg-134" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615.5999999999999" y="292.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-134" target="VEy2LJHycuRVvZdLgTMg-155" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-134" value="установка аттрибута SpinWheel (CanClaim, Claimed, Timer)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="320.75" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-136" value="запуск клиента" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="66.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="VEy2LJHycuRVvZdLgTMg-138" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1044.4" y="123" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-138" value="фиксирование изменение аттрибута у игрока" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="151.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="VEy2LJHycuRVvZdLgTMg-145" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1044.4" y="207.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-145" target="VEy2LJHycuRVvZdLgTMg-147" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-145" value="обновление и настройка интерфейса" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="236" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VEy2LJHycuRVvZdLgTMg-147" target="VEy2LJHycuRVvZdLgTMg-153" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-147" value="запуск цикла обновления (если нужно)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="320.75" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-149" target="VEy2LJHycuRVvZdLgTMg-147" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-149" value="таймер, прогрес бар" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="1258.8235294117646" y="320.75" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-153" target="VEy2LJHycuRVvZdLgTMg-162" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-153" value="по истечению таймера остановить обновление, отправить сигнал на сервер об окончании таймера" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="405.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-155" target="VEy2LJHycuRVvZdLgTMg-157" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-155" value="ожидание сигнала с клиента после окончания таймера" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="405.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VEy2LJHycuRVvZdLgTMg-157" target="VEy2LJHycuRVvZdLgTMg-159" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-157" value="валидация данных после сигнала" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="490.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-159" target="VEy2LJHycuRVvZdLgTMg-164" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-159" value="обновление аттрибута" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="575" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VEy2LJHycuRVvZdLgTMg-162" target="VEy2LJHycuRVvZdLgTMg-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-162" value="получение обновленных данных и обновление клиента" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="490.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-164" target="VEy2LJHycuRVvZdLgTMg-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-164" value="ожидание сигнала на запуск рулетки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="659.75" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VEy2LJHycuRVvZdLgTMg-166" target="VEy2LJHycuRVvZdLgTMg-170" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-166" value="запуск рулетки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="575" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-168" target="VEy2LJHycuRVvZdLgTMg-177" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-168" value="калькуляция награды и отправка на клиента" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="744.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-170" target="VEy2LJHycuRVvZdLgTMg-173" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-170" value="получение ответа от сервера" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="659.75" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VEy2LJHycuRVvZdLgTMg-173" target="VEy2LJHycuRVvZdLgTMg-175" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-173" value="обновление интерфейса, анимация рулетки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="744.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-175" value="конец" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="853.8235294117648" y="829.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-177" value="обновление кэша" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="829.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VEy2LJHycuRVvZdLgTMg-179" target="VEy2LJHycuRVvZdLgTMg-180" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-179" value="Фиксирование выхода игрока" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="20" y="66.5" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VEy2LJHycuRVvZdLgTMg-180" value="сохранение данных из кэша" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="20" y="151.25" width="381.1764705882353" height="56.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
