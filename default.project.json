@@ -1,0 +1,23 @@
+{
+  "name": "spin-wheel-2",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "SpinWheelShared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "SpinWheelServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "SpinWheelClient": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
